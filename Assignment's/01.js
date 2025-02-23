@@ -163,3 +163,16 @@
 
 // let str =['jabir',"imteyaz"];
 // console.log(str.map((string)=>string.toUpperCase()));
+
+
+// Assignment 09
+
+//Q1
+
+// let btn = document.createElement("btn");
+// let input= document.createElement("input");
+// btn.innerText =" click me ";
+// document.querySelector("body").append(btn);
+// ducument.querySelector("body").append(input);
+
+
