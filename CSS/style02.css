@@ -1,0 +1,133 @@
+/* Universal selector (*)  to select everything in a documents*/
+
+*{
+    font-family: 'Courier New';
+    
+}
+h1,h3{
+    color: #b92b27;
+}
+/* id selector */
+#login{
+background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* class selector */
+.upvote{
+background-color: green;
+color: aliceblue;
+}
+
+/* Desendant selector (ancestors) */
+p a {
+    color: purple;
+    background-color: yellow;
+}
+
+/* adjacent sibling combinator */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* child combinator  eg:- select all the buttons which are direct children of spans */
+div > input {
+    background-color: rgb(199, 153, 199);
+    color: white;
+}
+/* Atribute selector :- selects elements based on the presence or value of a given attributes */
+input[type="text"]{
+    color: red;
+}
+input[type ="password"]{
+   color: green;
+}
+
+/* pseud class :- A keyword added to a selector that sspecifies a speial state of the selected element(s) */
+
+/* 1:- hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+
+/* active  */
+
+button:active{
+    background-color:hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+/* checked */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* nth-of-type :- select nth element*/
+
+.pos:nth-of-type(3) {
+    background-color: rgb(190, 57, 121);
+}
+
+/* pseudo Elements :- A keyword added to a selector that lets you style a specific part of the selected element(s) */
+
+/* :: first-letter */
+h1::first-letter{
+   color: green;
+}
+
+/*::first-line  */
+p::first-line {
+    color: purple;
+}
+
+/* ::selection */
+
+p::selection{
+    background-color: yellow;
+}
+
+
+
+/* Selector specificity :- specificity is an alogorithm that calculates the wi=eight that is appied to given CSS declaration
+ How to claculate?
+
+ 1:-[id>class>elements]
+
+2:- if your using more selector is good as compaire to less selector
+
+ 3:- if specificity same => cascading
+*/
+  
+
+/* Inline specificity :- inline style are more specific than id 
+
+[inline >id>class>element]
+
+*/
+
+
+/* !important :- To show the most specific thing in documents 
+
+eg :- h2{
+bg color : red !important;
+
+*/
+
+

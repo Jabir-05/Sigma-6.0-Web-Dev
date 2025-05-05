@@ -1,0 +1,47 @@
+/* Box model in CSS
+
+1. Height
+2.Padding
+3.Margin
+4.content
+5.width
+6.Border
+
+*/
+
+/* div {
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.75rem;
+} */
+
+/* alpha channel:- sets yhe opacity for color
+
+Range from 0 to 1
+
+0 means hidden color 
+
+
+*/
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: #ff000080;
+}
+
+
+/* Opacity :- sets the opacity for the element
+Range from 0 to 1
+ 0 means hidden and 1 visible
+
+
+*/
+ #opacity{
+    background-color: #ffa511;
+    opacity: 1;
+ }
